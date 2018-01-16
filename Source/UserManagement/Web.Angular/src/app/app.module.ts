@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule, MatInputModule, MatDatepickerModule, MatRadioModule, MatSelectModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { StaffUserService } from './staffUserManagement/staffUser.service';
 import { DataCollectorService } from './dataCollectorManagement/dataCollector.service';
@@ -39,7 +40,8 @@ import { MatIconModule } from '@angular/material';
     BrowserAnimationsModule,
     MatDatepickerModule,
     MatTabsModule,
-    MatSelectModule
+    MatSelectModule,
+    NgbModule.forRoot()
   ],
   providers: [StaffUserService, DataCollectorService],
   bootstrap: [AppComponent]
