@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import {utils} from '@ifrc-cbs/common-react-ui';
 import AlertsController from '../AlertsController';
-import { removeAllListeners } from 'cluster';
+import Rule from './Rule';
 
 const {parseQueryString} = utils;
 
@@ -46,6 +46,16 @@ class Rules extends React.Component {
     const title = 'Rules';
     const description = '';
 
+    const rules = ["hei", "hallo"]
+
+    // function Rule(props) {
+    //   return <li>{props.value}</li> 
+    // }
+
+    // Rule.PropTypes = {
+    //   value: PropTypes.string.isRequired
+    // }
+
     return (
       <React.Fragment>
         <Helmet>
@@ -57,6 +67,11 @@ class Rules extends React.Component {
         <article id="rules-list">
           <section className="container">
             <h3>CBS Alerts</h3>
+            <ul>
+            {rules.map(rule => {
+               return <Rule value={rule} />;
+            })}
+            </ul>
           </section>
         </article>
       </React.Fragment>

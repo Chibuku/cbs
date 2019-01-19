@@ -33,6 +33,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "redux": "^4.0.1",
+    "@dolittle/commands":"^1.0.12",
+    "@dolittle/queries":"^1.0.14",
     "@ifrc-cbs/common-react-ui": "file:../../Navigation/Web.Common",
     "@ifrc-cbs/reporting": "0.0.4"
   },

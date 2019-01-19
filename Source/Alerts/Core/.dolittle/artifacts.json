@@ -1,1 +1,24 @@
-{}
+{
+  "a2ac4de2-99ed-41bd-b09a-e3b653b7c004": {
+    "commands": {
+      "0c70bec5-88f5-4dc5-83de-8f2023e3a607": {
+        "generation": 1,
+        "type": "Domain.Rules.AddRule, Domain"
+      }
+    },
+    "events": {},
+    "eventSources": {},
+    "readModels": {
+      "58ac9891-1065-4866-9e6e-d6b3820ba8b5": {
+        "generation": 1,
+        "type": "Read.Rules.Rule, Read"
+      }
+    },
+    "queries": {
+      "70e6a0d7-5ff1-40d1-a4a6-e43692ff23d0": {
+        "generation": 1,
+        "type": "Read.Rules.AllRules, Read"
+      }
+    }
+  }
+}

@@ -1,4 +1,9 @@
 {
   "modules": {},
-  "features": {}
+  "features": {
+    "a2ac4de2-99ed-41bd-b09a-e3b653b7c004": {
+      "name": "Rules",
+      "subFeatures": {}
+    }
+  }
 }
